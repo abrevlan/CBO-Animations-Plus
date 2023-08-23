@@ -1,0 +1,4 @@
+﻿# Source Files
+*.txt text eol=lf
+*.asset text eol=lf
+*.gui text eol=lf

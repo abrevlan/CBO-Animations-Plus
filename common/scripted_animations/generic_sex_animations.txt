@@ -1,0 +1,6 @@
+﻿generic_sex_animation = {
+	triggered_animation = {
+		trigger = { sex_missionary_1 = yes }
+		animation = sex_missionary_1
+	}
+}

@@ -1,0 +1,13 @@
+﻿random_bedroom_generic_sex_scene = {
+	random_on_actions = {
+		1 = random_bedroom_generic_missionary_sex_scene
+	}
+	
+	fallback = random_bedroom_generic_missionary_sex_scene
+}
+
+random_bedroom_generic_missionary_sex_scene = {
+	random_events = {
+		1 = bedroom_generic_sex_scene.0001
+	}
+}

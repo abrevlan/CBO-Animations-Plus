@@ -1,0 +1,6 @@
+﻿l_english:
+ cbo_animations_plus.t: "Animation Sets"
+ cbo_animations_plus.desc: "Select an animation set."
+ cbo_animations_plus.return: "Go back to animation set selection"
+ cbo_animations_plus.default: "Default"
+ cbo_animations_plus.a: "Animations+"

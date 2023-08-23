@@ -1,0 +1,29 @@
+﻿sex_missionary_1 = {
+	OR = {
+		has_character_flag = sex_missionary_1a
+		has_character_flag = sex_missionary_1b
+		has_character_flag = sex_missionary_1a_1
+		has_character_flag = sex_missionary_1a_2
+		has_character_flag = sex_missionary_1a_3
+		has_character_flag = sex_missionary_1b_1
+		has_character_flag = sex_missionary_1b_2
+		has_character_flag = sex_missionary_1b_3
+		has_character_flag = sex_missionary_1c_1
+		has_character_flag = sex_missionary_1c_2
+		has_character_flag = sex_missionary_1c_3
+		has_character_flag = sex_missionary_1d_1
+		has_character_flag = sex_missionary_1d_2
+		has_character_flag = sex_missionary_1d_3
+	}
+}
+
+sex_missionary_1_corrections = {
+	trigger_if = {
+		limit = {
+			is_female = yes
+			NOT = { this = scope:carn_sex_player }
+		}
+		
+		scope:carn_sex_player = { has_character_flag = sex_missionary_1b }
+	}
+}

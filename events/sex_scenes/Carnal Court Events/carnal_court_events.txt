@@ -1,0 +1,2606 @@
+﻿namespace = carnal_court_sex_scene
+
+carnal_court_sex_scene.0001 = {
+	type = court_event
+	title = carnal_court_sex_scene.0001.t
+	desc = carnal_court_sex_scene.0001.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_group_1
+				animation = sex
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_high_group_1
+				animation = sex
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene_for_male = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0002 = {
+	type = court_event
+	title = carnal_court_sex_scene.0002.t
+	desc = carnal_court_sex_scene.0002.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_standing_group_1
+				animation = sex_standing
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_standing_held_group
+				animation = sex_standing
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene_for_male = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0003 = {
+	type = court_event
+	title = carnal_court_sex_scene.0003.t
+	desc = carnal_court_sex_scene.0003.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_standing_held_group
+				animation = sex_standing
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_standing_group_1
+				animation = sex_standing
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene_for_female = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0004 = {
+	type = court_event
+	title = carnal_court_sex_scene.0004.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0004.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0004.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_high_group_1
+				animation = sex_cowgirl
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_high_group_2
+				animation = sex_cowgirl
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0005 = {
+	type = court_event
+	title = carnal_court_sex_scene.0005.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0005.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0005.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_group_1
+				animation = sex_reverse_cowgirl
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_group_2
+				animation = sex_reverse_cowgirl
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0006 = {
+	type = court_event
+	title = carnal_court_sex_scene.0006.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0006.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0006.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_high_group_1
+				animation = sex_doggy
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_high_group_2
+				animation = sex_doggy
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0007 = {
+	type = court_event
+	title = carnal_court_sex_scene.0007.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0007.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0007.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_extreme_high_group_1
+				animation = sex_missionary
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_extreme_high_group_2
+				animation = sex_missionary
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0008 = {
+	type = court_event
+	title = carnal_court_sex_scene.0008.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0008.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0008.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_standing_group_1
+				animation = sex_standing_doggy
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_standing_group_2
+				animation = sex_standing_doggy
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0009 = {
+	type = court_event
+	title = carnal_court_sex_scene.0009.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0009.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0009.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_group_1
+				animation = sex_fellatio
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_group_2
+				animation = sex_fellatio
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0010 = {
+	type = court_event
+	title = carnal_court_sex_scene.0010.t
+	desc = carnal_court_sex_scene.0010.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_group_1
+				animation = sex_fellatio
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_group_2
+				animation = sex_fellatio_hom
+			}
+		}
+	}
+	
+	trigger = { is_homosexual_sex_scene_for_male = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0011 = {
+	type = court_event
+	title = carnal_court_sex_scene.0011.t
+	desc = carnal_court_sex_scene.0011.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_high_group_1
+				animation = sex_doggy
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_high_group_2
+				animation = hom_sex
+			}
+		}
+	}
+	
+	trigger = { is_homosexual_sex_scene_for_male = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0012 = {
+	type = court_event
+	title = carnal_court_sex_scene.0012.t
+	desc = carnal_court_sex_scene.0012.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_group_1
+				animation = hom_sex
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_group_2
+				animation = hom_sex_2
+			}
+		}
+	}
+	
+	trigger = { is_homosexual_sex_scene_for_female = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0013 = {
+	type = court_event
+	title = carnal_court_sex_scene.0013.t
+	desc = carnal_court_sex_scene.0013.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_high_group_1
+				animation = sex
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_group_1
+				animation = sex
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene_for_female = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0014 = {
+	type = court_event
+	title = carnal_court_sex_scene.0014.t
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = carnal_court_sex_scene.0014.desc.male
+			}
+			
+			desc = carnal_court_sex_scene.0014.desc.female
+		}
+	}
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_headboard_group_1
+				animation = sex_cunnilingus
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_headboard_group_2
+				animation = sex_cunnilingus
+			}
+		}
+	}
+	
+	trigger = { is_heterosexual_sex_scene = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}
+
+carnal_court_sex_scene.0015 = {
+	type = court_event
+	title = carnal_court_sex_scene.0015.t
+	desc = carnal_court_sex_scene.0015.desc
+	
+	theme = court
+	
+	court_scene = {
+		button_position_character = scope:carn_sex_player
+		court_event_force_open = yes
+		
+		roles = {
+			scope:carn_sex_player = {
+				group = sex_bed_headboard_group_1
+				animation = sex_cunnilingus_hom
+			}
+			
+			scope:carn_sex_target = {
+				group = sex_bed_headboard_group_2
+				animation = sex_cunnilingus
+			}
+		}
+	}
+	
+	trigger = { is_homosexual_sex_scene_for_female = yes }
+	
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.a
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0001
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.b
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0002
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.c
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0003
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.d.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0004
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.e.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0005
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.f.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0006
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.g.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0007
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.h.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0008
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.i.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0009
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.j
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0010
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.k
+		trigger = { is_homosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0011
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.l
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0012
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.m
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0013
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.male
+		trigger = { is_heterosexual_sex_scene_for_male = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.n.female
+		trigger = { is_heterosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0014
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.o
+		trigger = { is_homosexual_sex_scene_for_female = yes }
+		trigger_event = carnal_court_sex_scene.0015
+	}
+	
+	option = {
+		name = intro_carnal_court_sex_scene.0001.p
+		end_carnal_court_scene = yes
+	}
+}

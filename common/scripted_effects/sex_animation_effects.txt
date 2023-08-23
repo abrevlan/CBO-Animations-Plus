@@ -1,0 +1,59 @@
+﻿clear_sex_animation_flags = {
+	remove_character_flag = sex_missionary_1a
+	remove_character_flag = sex_missionary_1b
+	remove_character_flag = sex_missionary_1a_1
+	remove_character_flag = sex_missionary_1a_2
+	remove_character_flag = sex_missionary_1a_3
+	remove_character_flag = sex_missionary_1b_1
+	remove_character_flag = sex_missionary_1b_2
+	remove_character_flag = sex_missionary_1b_3
+	remove_character_flag = sex_missionary_1c_1
+	remove_character_flag = sex_missionary_1c_2
+	remove_character_flag = sex_missionary_1c_3
+	remove_character_flag = sex_missionary_1d_1
+	remove_character_flag = sex_missionary_1d_2
+	remove_character_flag = sex_missionary_1d_3
+}
+
+sex_missionary_1 = {
+	clear_sex_animation_flags = yes
+	
+	if = {
+		limit = { is_male = yes }
+		
+		random_list = {
+			1 = { add_character_flag = sex_missionary_1a }
+			1 = { add_character_flag = sex_missionary_1b }
+		}
+	}
+	
+	else = {
+		if = {
+			limit = { sex_missionary_1_corrections = yes }
+			
+			random_list = {
+				1 = { add_character_flag = sex_missionary_1a_2 }
+				1 = { add_character_flag = sex_missionary_1b_2 }
+				1 = { add_character_flag = sex_missionary_1c_2 }
+				1 = { add_character_flag = sex_missionary_1d_2 }
+			}
+		}
+		
+		else = {
+			random_list = {
+				1 = { add_character_flag = sex_missionary_1a_1 }
+				1 = { add_character_flag = sex_missionary_1a_2 }
+				1 = { add_character_flag = sex_missionary_1a_3 }
+				1 = { add_character_flag = sex_missionary_1b_1 }
+				1 = { add_character_flag = sex_missionary_1b_2 }
+				1 = { add_character_flag = sex_missionary_1b_3 }
+				1 = { add_character_flag = sex_missionary_1c_1 }
+				1 = { add_character_flag = sex_missionary_1c_2 }
+				1 = { add_character_flag = sex_missionary_1c_3 }
+				1 = { add_character_flag = sex_missionary_1d_1 }
+				1 = { add_character_flag = sex_missionary_1d_2 }
+				1 = { add_character_flag = sex_missionary_1d_3 }
+			}
+		}
+	}
+}

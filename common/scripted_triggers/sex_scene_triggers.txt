@@ -1,0 +1,71 @@
+﻿
+#===============================================================================
+# Utility Triggers
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# Primary Triggers
+#-------------------------------------------------------------------------------
+
+is_valid_age = {
+	is_adult = yes
+	age >= 18
+}
+
+partners_are_valid = {
+	scope:carn_sex_player = { is_valid_age = yes }
+	scope:carn_sex_target = { is_valid_age = yes }
+}
+
+participants_are_valid = {
+	NOT = {
+		any_in_list = {
+			list = sex_scene_participants
+			is_valid_age = no
+		}
+	}
+}
+
+is_heterosexual_sex_scene = {
+	scope:carn_sex_player = { sex_opposite_of = scope:carn_sex_target }
+	partners_are_valid = yes
+}
+
+is_homosexual_sex_scene = {
+	scope:carn_sex_player = { sex_same_as = scope:carn_sex_target }
+	partners_are_valid = yes
+}
+
+#-------------------------------------------------------------------------------
+# Derived Triggers
+#-------------------------------------------------------------------------------
+
+is_heterosexual_sex_scene_for_male = {
+	scope:carn_sex_player = { is_male = yes }
+	is_heterosexual_sex_scene = yes
+}
+
+is_heterosexual_sex_scene_for_female = {
+	scope:carn_sex_player = { is_female = yes }
+	is_heterosexual_sex_scene = yes
+}
+
+is_homosexual_sex_scene_for_male = {
+	scope:carn_sex_player = { is_male = yes }
+	is_homosexual_sex_scene = yes
+}
+
+is_homosexual_sex_scene_for_female = {
+	scope:carn_sex_player = { is_female = yes }
+	is_homosexual_sex_scene = yes
+}
+
+is_heterosexual_sex_scene_with = {
+	is_heterosexual_sex_scene = yes
+	has_character_flag = sex_$position$
+}
+
+is_homosexual_sex_scene_with = {
+	is_homosexual_sex_scene = yes
+	has_character_flag = sex_$position$
+}

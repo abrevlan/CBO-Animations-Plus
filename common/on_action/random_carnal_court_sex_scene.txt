@@ -1,0 +1,27 @@
+﻿random_carnal_court_intro = {
+	random_events = {
+		1 = intro_carnal_court_sex_scene.0001
+		1 = intro_carnal_court_sex_scene.0002
+		1 = intro_carnal_court_sex_scene.0003
+	}
+}
+
+random_carnal_court_sex_scene = {
+	random_events = {
+		1 = carnal_court_sex_scene.0001
+		1 = carnal_court_sex_scene.0002
+		1 = carnal_court_sex_scene.0003
+		1 = carnal_court_sex_scene.0004
+		1 = carnal_court_sex_scene.0005
+		1 = carnal_court_sex_scene.0006
+		1 = carnal_court_sex_scene.0007
+		1 = carnal_court_sex_scene.0008
+		1 = carnal_court_sex_scene.0009
+		1 = carnal_court_sex_scene.0010
+		1 = carnal_court_sex_scene.0011
+		1 = carnal_court_sex_scene.0012
+		1 = carnal_court_sex_scene.0013
+		1 = carnal_court_sex_scene.0014
+		1 = carnal_court_sex_scene.0015
+	}
+}
