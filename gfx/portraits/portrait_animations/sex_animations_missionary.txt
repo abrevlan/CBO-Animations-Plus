@@ -45,7 +45,7 @@
 		}
 		
 		a_1 = {
-			animation = { head = "sex_missionary_1a" torso = "sex_missionary_1a_1" }
+			animation = { head = "sex_missionary_1a_1" torso = "sex_missionary_1a_1" }
 			
 			weight = {
 				base = 0
@@ -59,7 +59,7 @@
 		}
 		
 		a_2 = {
-			animation = { head = "sex_missionary_1a" torso = "sex_missionary_1a_2" }
+			animation = { head = "sex_missionary_1a_2" torso = "sex_missionary_1a_2" }
 			
 			weight = {
 				base = 0
@@ -73,7 +73,7 @@
 		}
 		
 		a_3 = {
-			animation = { head = "sex_missionary_1a" torso = "sex_missionary_1a_3" }
+			animation = { head = "sex_missionary_1a_3" torso = "sex_missionary_1a_3" }
 			
 			weight = {
 				base = 0
@@ -87,7 +87,7 @@
 		}
 		
 		b_1 = {
-			animation = { head = "sex_missionary_1b" torso = "sex_missionary_1b_1" }
+			animation = { head = "sex_missionary_1b_1" torso = "sex_missionary_1b_1" }
 			
 			weight = {
 				base = 0
@@ -101,7 +101,7 @@
 		}
 		
 		b_2 = {
-			animation = { head = "sex_missionary_1b" torso = "sex_missionary_1b_2" }
+			animation = { head = "sex_missionary_1b_2" torso = "sex_missionary_1b_2" }
 			
 			weight = {
 				base = 0
@@ -115,7 +115,7 @@
 		}
 		
 		b_3 = {
-			animation = { head = "sex_missionary_1b" torso = "sex_missionary_1b_3" }
+			animation = { head = "sex_missionary_1b_3" torso = "sex_missionary_1b_3" }
 			
 			weight = {
 				base = 0
@@ -129,7 +129,7 @@
 		}
 		
 		c_1 = {
-			animation = { head = "sex_missionary_1c" torso = "sex_missionary_1c_1" }
+			animation = { head = "sex_missionary_1c_1" torso = "sex_missionary_1c_1" }
 			
 			weight = {
 				base = 0
@@ -143,7 +143,7 @@
 		}
 		
 		c_2 = {
-			animation = { head = "sex_missionary_1c" torso = "sex_missionary_1c_2" }
+			animation = { head = "sex_missionary_1c_2" torso = "sex_missionary_1c_2" }
 			
 			weight = {
 				base = 0
@@ -157,7 +157,7 @@
 		}
 		
 		c_3 = {
-			animation = { head = "sex_missionary_1c" torso = "sex_missionary_1c_3" }
+			animation = { head = "sex_missionary_1c_3" torso = "sex_missionary_1c_3" }
 			
 			weight = {
 				base = 0
@@ -171,7 +171,7 @@
 		}
 		
 		d_1 = {
-			animation = { head = "sex_missionary_1d" torso = "sex_missionary_1d_1" }
+			animation = { head = "sex_missionary_1d_1" torso = "sex_missionary_1d_1" }
 			
 			weight = {
 				base = 0
@@ -185,7 +185,7 @@
 		}
 		
 		d_2 = {
-			animation = { head = "sex_missionary_1d" torso = "sex_missionary_1d_2" }
+			animation = { head = "sex_missionary_1d_2" torso = "sex_missionary_1d_2" }
 			
 			weight = {
 				base = 0
@@ -199,7 +199,7 @@
 		}
 		
 		d_3 = {
-			animation = { head = "sex_missionary_1d" torso = "sex_missionary_1d_3" }
+			animation = { head = "sex_missionary_1d_3" torso = "sex_missionary_1d_3" }
 			
 			weight = {
 				base = 0

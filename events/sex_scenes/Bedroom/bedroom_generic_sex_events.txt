@@ -19,8 +19,8 @@ bedroom_generic_sex_scene.0001 = {
 		court_event_force_open = yes
 		
 		roles = {
-			scope:carn_sex_player = { group = sex_bed_group_1 animation = sex_missionary_1 }
-			scope:carn_sex_target = { group = sex_bed_group_2 animation = sex_missionary_1 }
+			scope:carn_sex_player = { group = sex_bed_group_1 scripted_animation = sex_missionary }
+			scope:carn_sex_target = { group = sex_bed_group_2 scripted_animation = sex_missionary }
 		}
 	}
 	

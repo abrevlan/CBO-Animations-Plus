@@ -8,17 +8,7 @@
 #-------------------------------------------------------------------------------
 
 end_carnal_court_scene = {
-	scope:carn_sex_player  = {
-		carn_had_sex_with_effect = {
-			CHARACTER_1 = scope:carn_sex_player
-			CHARACTER_2 = scope:carn_sex_target
-			C1_PREGNANCY_CHANCE = pregnancy_chance
-			C2_PREGNANCY_CHANCE = pregnancy_chance
-			STRESS_EFFECTS = scope:carn_sex_stress_effects
-			DRAMA = scope:carn_sex_drama
-		}
-	}
-	
+	default_carn_had_sex_effect = yes
 	carnal_court_leave_court_effect = yes
 	carn_sex_scene_is_consensual = yes
 	remove_global_variable = carnal_court_sex_animation_event

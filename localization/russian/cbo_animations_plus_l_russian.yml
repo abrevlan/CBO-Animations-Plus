@@ -1,0 +1,6 @@
+﻿l_russian:
+ cbo_animations_plus.t: "Наборы анимаций"
+ cbo_animations_plus.desc: "Выбрать набор анимаций"
+ cbo_animations_plus.return: "Вернуться к выбору набора анимаций"
+ cbo_animations_plus.default: "Стандартные"
+ cbo_animations_plus.a: "Animations+"

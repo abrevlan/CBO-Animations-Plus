@@ -305,6 +305,7 @@
 	animation = { id = "head_emotion_chessCocky_2"										type = "female_head_emotion_chessCocky_2.anim" }
 	animation = { id = "head_emotion_chessCocky_3"										type = "female_head_emotion_chessCocky_3.anim" }
 	
+	animation = { id = "head_council_spymaster"											type = "female_head_council_spymaster.anim" }
 	animation = { id = "head_council_marshal"											type = "female_head_council_marshal.anim" }
 	animation = { id = "head_council_steward"											type = "female_head_council_steward.anim" }
 	animation = { id = "head_council_chancellor"										type = "female_head_council_chancellor.anim" }
@@ -428,9 +429,7 @@
 	animation = { id = "head_testCase1_3"												type = "female_head_testCase1_3.anim" }
 	
 	additive_animation = { id = "head_sex_fellatio_height"		type = "female_head_sex_fellatio_height.anim" }
-	
 	additive_animation = { id = "gender_morph"					type = "female_to_male_head.anim" }
-	
 	additive_animation = { id = "head_body_height_2"			type = "female_head_body_height_2.anim" }
 	
 	animation = { id = "head_sex"						type = "female_head_sex.anim" }
@@ -1339,8 +1338,16 @@ entity = {
 	#===========================================================================
 	
 	# Missionary
-	state = { name = "sex_missionary_1a"											animation = "head_sex_missionary_1a" looping = no next_state = "sex_missionary_1a" }
-	state = { name = "sex_missionary_1b"											animation = "head_sex_missionary_1b" looping = no next_state = "sex_missionary_1b" }
-	state = { name = "sex_missionary_1c"											animation = "head_sex_missionary_1c" looping = no next_state = "sex_missionary_1c" }
-	state = { name = "sex_missionary_1d"											animation = "head_sex_missionary_1d" looping = no next_state = "sex_missionary_1d" }
+	state = { name = "sex_missionary_1a_1"											animation = "head_sex_missionary_1a" looping = no next_state = "sex_missionary_1a_1" }
+	state = { name = "sex_missionary_1a_2"											animation = "head_sex_missionary_1a" looping = no next_state = "sex_missionary_1a_2" }
+	state = { name = "sex_missionary_1a_3"											animation = "head_sex_missionary_1a" looping = no next_state = "sex_missionary_1a_3" }
+	state = { name = "sex_missionary_1b_1"											animation = "head_sex_missionary_1b" looping = no next_state = "sex_missionary_1b_1" }
+	state = { name = "sex_missionary_1b_2"											animation = "head_sex_missionary_1b" looping = no next_state = "sex_missionary_1b_2" }
+	state = { name = "sex_missionary_1b_3"											animation = "head_sex_missionary_1b" looping = no next_state = "sex_missionary_1b_3" }
+	state = { name = "sex_missionary_1c_1"											animation = "head_sex_missionary_1c" looping = no next_state = "sex_missionary_1c_1" }
+	state = { name = "sex_missionary_1c_2"											animation = "head_sex_missionary_1c" looping = no next_state = "sex_missionary_1c_2" }
+	state = { name = "sex_missionary_1c_3"											animation = "head_sex_missionary_1c" looping = no next_state = "sex_missionary_1c_3" }
+	state = { name = "sex_missionary_1d_1"											animation = "head_sex_missionary_1d" looping = no next_state = "sex_missionary_1d_1" }
+	state = { name = "sex_missionary_1d_2"											animation = "head_sex_missionary_1d" looping = no next_state = "sex_missionary_1d_2" }
+	state = { name = "sex_missionary_1d_3"											animation = "head_sex_missionary_1d" looping = no next_state = "sex_missionary_1d_3" }
 }

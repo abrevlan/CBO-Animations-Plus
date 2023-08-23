@@ -1,5 +1,29 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.1.1
+
+### Animations
+
+- fixed the `female_head` animation issue
+- updated `female_head` sex_missionary_1 animations to have reactions
+
+### User Interface
+
+- removed hud.gui modification
+
+### Events
+
+- modified `carn_sex_scene.0001` that came with CBO to use `generic_sex_animations` instead
+
+### Script
+
+- made effects for use in character event window
+
+### Localization
+
+- added russian localization (curtesy of ded)
+- added temporary localization for the other languages
+
 ## 0.1.0
 
 ### Animations
