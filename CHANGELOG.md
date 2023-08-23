@@ -1,5 +1,11 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.2.0
+
+### Localization
+
+- added simp_chinese localization (curtesy of jengus)
+
 ## 0.1.1
 
 ### Animations
