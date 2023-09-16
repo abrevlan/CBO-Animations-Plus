@@ -1,0 +1,394 @@
+﻿skeletal_animation_set = {
+	name = "common_head"
+	reference_skeleton = "male_head_mesh"
+	
+	#=========#
+	# Council #
+	#=========#
+	
+	animation = { id = "head_council_spymaster"							type = "male_head_council_spymaster.anim" }
+	
+	#=========#
+	# Newborn #
+	#=========#
+	
+	animation = { id = "head_event_newborn_start"						type = "male_head_event_newborn_start.anim" }
+	animation = { id = "head_event_newborn"								type = "male_head_event_newborn.anim" }
+	
+	#==========#
+	# Emotions #
+	#==========#
+	
+	# Angry --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_angry"								type = "male_head_emotion_angry.anim" }
+	animation = { id = "head_emotion_angry_Fat"							type = "male_head_emotion_angry_Fat.anim" }
+	animation = { id = "head_emotion_angry_FatDwarf"					type = "male_head_emotion_angry_FatDwarf.anim" }
+	animation = { id = "head_emotion_angry_start"						type = "male_head_emotion_angry_start.anim" }
+	animation = { id = "head_emotion_angry_start_Fat"					type = "male_head_emotion_angry_start_Fat.anim" }
+	animation = { id = "head_emotion_angry_start_FatDwarf"				type = "male_head_emotion_angry_start_FatDwarf.anim" }
+	animation = { id = "head_emotion_angry_start_var"					type = "male_head_emotion_angry_start_var.anim" }
+	animation = { id = "head_emotion_angry_start_var_Fat"				type = "male_head_emotion_angry_start_var_Fat.anim" }
+	animation = { id = "head_emotion_angry_start_var_FatDwarf"			type = "male_head_emotion_angry_start_var_FatDwarf.anim" }
+	animation = { id = "head_emotion_angry_start_var2"					type = "male_head_emotion_angry_start_var2.anim" }
+	
+	# Sadness ------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_sadness"							type = "male_head_emotion_sadness.anim" }
+	animation = { id = "head_emotion_sadness_Fat"						type = "male_head_emotion_sadness_Fat.anim" }
+	animation = { id = "head_emotion_sadness_FatDwarf"					type = "male_head_emotion_sadness_FatDwarf.anim" }
+	animation = { id = "head_emotion_sadness_start"						type = "male_head_emotion_sadness_start.anim" }
+	animation = { id = "head_emotion_sadness_start_Fat"					type = "male_head_emotion_sadness_start_Fat.anim" }
+	animation = { id = "head_emotion_sadness_start_FatDwarf"			type = "male_head_emotion_sadness_start_FatDwarf.anim" }
+	
+	# Disgust ------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_disgust"							type = "male_head_emotion_disgust.anim" }
+	# animation = { id = "head_emotion_disgust_Fat"						type = "male_head_emotion_disgust_Fat.anim" }
+	# animation = { id = "head_emotion_disgust_FatDwarf"					type = "male_head_emotion_disgust_FatDwarf.anim" }
+	animation = { id = "head_emotion_disgust_start"						type = "male_head_emotion_disgust_start.anim" }
+	animation = { id = "head_emotion_disgust_start_Fat"					type = "male_head_emotion_disgust_start_Fat.anim" }
+	animation = { id = "head_emotion_disgust_start_FatDwarf"			type = "male_head_emotion_disgust_start_FatDwarf.anim" }
+	
+	# Disapproving -------------------------------------------------------------
+	
+	animation = { id = "head_emotion_disapproving"						type = "male_head_emotion_disapproving.anim" }
+	
+	# Worry --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_worry"								type = "male_head_emotion_worry.anim" }
+	# animation = { id = "head_emotion_worry_Fat"							type = "male_head_emotion_worry_Fat.anim" }
+	animation = { id = "head_emotion_worry_FatDwarf"					type = "male_head_emotion_worry_FatDwarf.anim" }
+	animation = { id = "head_emotion_worry_start"						type = "male_head_emotion_worry_start.anim" }
+	# animation = { id = "head_emotion_worry_start_Fat"					type = "male_head_emotion_worry_start_Fat.anim" }
+	animation = { id = "head_emotion_worry_start_FatDwarf"				type = "male_head_emotion_worry_start_FatDwarf.anim" }
+	
+	# Admiration ---------------------------------------------------------------
+	
+	animation = { id = "head_emotion_admiration"						type = "male_head_emotion_admiration.anim" }
+	animation = { id = "head_emotion_admiration_Fat"					type = "male_head_emotion_admiration_Fat.anim" }
+	animation = { id = "head_emotion_admiration_FatDwarf"				type = "male_head_emotion_admiration_FatDwarf.anim" }
+	animation = { id = "head_emotion_admiration_start"					type = "male_head_emotion_admiration_start.anim" }
+	animation = { id = "head_emotion_admiration_start_Fat"				type = "male_head_emotion_admiration_start_Fat.anim" }
+	animation = { id = "head_emotion_admiration_start_FatDwarf"			type = "male_head_emotion_admiration_start_FatDwarf.anim" }
+	
+	# Happy --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_happy"								type = "male_head_emotion_happy.anim" }
+	animation = { id = "head_emotion_happy_Fat"							type = "male_head_emotion_happy_Fat.anim" }
+	animation = { id = "head_emotion_happy_FatDwarf"					type = "male_head_emotion_happy_FatDwarf.anim" }
+	animation = { id = "head_emotion_happy_start"						type = "male_head_emotion_happy_start.anim" }
+	animation = { id = "head_emotion_happy_start_Fat"					type = "male_head_emotion_happy_start_Fat.anim" }
+	animation = { id = "head_emotion_happy_start_FatDwarf"				type = "male_head_emotion_happy_start_FatDwarf.anim" }
+	animation = { id = "head_emotion_happy_start_clap"					type = "male_head_emotion_happy_start_clap.anim" }
+	animation = { id = "head_emotion_happy_start_clap_Fat"				type = "male_head_emotion_happy_start_clap_Fat.anim" }
+	animation = { id = "head_emotion_happy_start_clap_FatDwarf"			type = "male_head_emotion_happy_start_clap_FatDwarf.anim" }
+	animation = { id = "head_emotion_happy_start_point"					type = "male_head_emotion_happy_start_point.anim" }
+	animation = { id = "head_emotion_happy_start_point_Fat"				type = "male_head_emotion_happy_start_point_Fat.anim" }
+	animation = { id = "head_emotion_happy_start_point_FatDwarf"		type = "male_head_emotion_happy_start_point_FatDwarf.anim" }
+	
+	# Boredom ------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_boredom"							type = "male_head_emotion_boredom.anim" }
+	
+	# Sick ---------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_sick"								type = "male_head_emotion_sick.anim" }
+	
+	# Scheme -------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_scheme"							type = "male_head_emotion_scheme.anim" }
+	
+	# Disbelief ----------------------------------------------------------------
+	
+	animation = { id = "head_emotion_disbelief"							type = "male_head_emotion_disbelief.anim" }
+	# animation = { id = "head_emotion_disbelief_Fat"						type = "male_head_emotion_disbelief_Fat.anim" }
+	animation = { id = "head_emotion_disbelief_FatDwarf"				type = "male_head_emotion_disbelief_FatDwarf.anim" }
+	animation = { id = "head_emotion_disbelief_start"					type = "male_head_emotion_disbelief_start.anim" }
+	animation = { id = "head_emotion_disbelief_start_Fat"				type = "male_head_emotion_disbelief_start_Fat.anim" }
+	animation = { id = "head_emotion_disbelief_start_FatDwarf"			type = "male_head_emotion_disbelief_start_FatDwarf.anim" }
+	
+	# Fear ---------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_fear"								type = "male_head_emotion_fear.anim" }
+	animation = { id = "head_emotion_fear_Fat"							type = "male_head_emotion_fear_Fat.anim" }
+	# animation = { id = "head_emotion_fear_FatDwarf"						type = "male_head_emotion_fear_FatDwarf.anim" }
+	animation = { id = "head_emotion_fear_start"						type = "male_head_emotion_fear_start.anim" }
+	animation = { id = "head_emotion_fear_start_Fat"					type = "male_head_emotion_fear_start_Fat.anim" }
+	# animation = { id = "head_emotion_fear_start_FatDwarf"				type = "male_head_emotion_fear_start_FatDwarf.anim" }
+	
+	# Shame --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_shame"								type = "male_head_emotion_shame.anim" }
+	
+	# Stressed -----------------------------------------------------------------
+	
+	animation = { id = "head_emotion_stressed"							type = "male_head_emotion_stressed.anim" }
+	animation = { id = "head_emotion_stressed_Fat"						type = "male_head_emotion_stressed_Fat.anim" }
+	animation = { id = "head_emotion_stressed_FatDwarf"					type = "male_head_emotion_stressed_FatDwarf.anim" }
+	animation = { id = "head_emotion_stressed_start"					type = "male_head_emotion_stressed_start.anim" }
+	animation = { id = "head_emotion_stressed_start_Fat"				type = "male_head_emotion_stressed_start_Fat.anim" }
+	animation = { id = "head_emotion_stressed_start_FatDwarf"			type = "male_head_emotion_stressed_start_FatDwarf.anim" }
+	
+	# Dismissive ---------------------------------------------------------------
+	
+	animation = { id = "head_emotion_dismissive"						type = "male_head_emotion_dismissive.anim" }
+	animation = { id = "head_emotion_dismissive_Fat"					type = "male_head_emotion_dismissive_Fat.anim" }
+	animation = { id = "head_emotion_dismissive_FatDwarf"				type = "male_head_emotion_dismissive_FatDwarf.anim" }
+	animation = { id = "head_emotion_dismissive_start"					type = "male_head_emotion_dismissive_start.anim" }
+	animation = { id = "head_emotion_dismissive_start_Fat"				type = "male_head_emotion_dismissive_start_Fat.anim" }
+	animation = { id = "head_emotion_dismissive_start_FatDwarf"			type = "male_head_emotion_dismissive_start_FatDwarf.anim" }
+	
+	# Schadenfreude ------------------------------------------------------------
+	
+	animation = { id = "head_emotion_schadenfreude"						type = "male_head_emotion_schadenfreude.anim" }
+	animation = { id = "head_emotion_schadenfreude_Fat"					type = "male_head_emotion_schadenfreude_Fat.anim" }
+	animation = { id = "head_emotion_schadenfreude_FatDwarf"			type = "male_head_emotion_schadenfreude_FatDwarf.anim" }
+	animation = { id = "head_emotion_schadenfreude_start"				type = "male_head_emotion_schadenfreude_start.anim" }
+	animation = { id = "head_emotion_schadenfreude_start_Fat"			type = "male_head_emotion_schadenfreude_start_Fat.anim" }
+	animation = { id = "head_emotion_schadenfreude_start_FatDwarf"		type = "male_head_emotion_schadenfreude_start_FatDwarf.anim" }
+	
+	# Flirty -------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_flirty"							type = "male_head_emotion_flirty.anim" }
+	animation = { id = "head_emotion_flirtyLeft"						type = "male_head_emotion_flirtyLeft.anim" }
+	
+	# Paranoia -----------------------------------------------------------------
+	
+	animation = { id = "head_emotion_paranoia"							type = "male_head_emotion_paranoia.anim" }
+	
+	# Grief --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_grief"								type = "male_head_emotion_grief.anim" }
+	
+	# Shock --------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_shock"								type = "male_head_emotion_shock.anim" }
+	animation = { id = "head_emotion_shock_Fat"							type = "male_head_emotion_shock_Fat.anim" }
+	animation = { id = "head_emotion_shock_FatDwarf"					type = "male_head_emotion_shock_FatDwarf.anim" }
+	animation = { id = "head_emotion_shock_start"						type = "male_head_emotion_shock_start.anim" }
+	animation = { id = "head_emotion_shock_start_Fat"					type = "male_head_emotion_shock_start_Fat.anim" }
+	animation = { id = "head_emotion_shock_start_FatDwarf"				type = "male_head_emotion_shock_start_FatDwarf.anim" }
+	animation = { id = "head_emotion_shock_start_var"					type = "male_head_emotion_shock_start_var.anim" }
+	animation = { id = "head_emotion_shock_start_var_Fat"				type = "male_head_emotion_shock_start_var_Fat.anim" }
+	animation = { id = "head_emotion_shock_start_var_FatDwarf"			type = "male_head_emotion_shock_start_var_FatDwarf.anim" }
+	
+	# Pain ---------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_pain"								type = "male_head_emotion_pain.anim" }
+	
+	# Beg ----------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_beg"								type = "male_head_emotion_beg.anim" }
+	
+	# Poison -------------------------------------------------------------------
+	
+	animation = { id = "head_emotion_poison"							type = "male_head_emotion_poisoned.anim" }
+	
+	# Thinking -----------------------------------------------------------------
+	
+	animation = { id = "head_emotion_thinking"							type = "male_head_emotion_thinking.anim" }
+	# animation = { id = "head_emotion_thinking_Fat"						type = "male_head_emotion_thinking_Fat.anim" }
+	# animation = { id = "head_emotion_thinking_FatDwarf"					type = "male_head_emotion_thinking_FatDwarf.anim" }
+	animation = { id = "head_emotion_thinking_start"					type = "male_head_emotion_thinking_start.anim" }
+	animation = { id = "head_emotion_thinking_start_Fat"				type = "male_head_emotion_thinking_start_Fat.anim" }
+	animation = { id = "head_emotion_thinking_start_FatDwarf"			type = "male_head_emotion_thinking_start_FatDwarf.anim" }
+	
+	#===========================================================================
+	# Fate of Iberia DLC
+	#===========================================================================
+	
+	animation = { id = "head_emotion_laugh_1"							type = "male_head_emotion_laugh_1.anim" }
+	
+	animation = { id = "head_emotion_lantern_1"							type = "male_head_emotion_lantern_1.anim" }
+	animation = { id = "head_emotion_lantern_2"							type = "male_head_emotion_lantern_2.anim" }
+	
+	animation = { id = "head_emotion_eyeroll_1"							type = "male_head_emotion_eyeroll_1.anim" }
+	
+	animation = { id = "head_emotion_eavesdrop_1"						type = "male_head_emotion_eavesdrop_1.anim" }
+	
+	animation = { id = "head_emotion_assassin_1"						type = "male_head_emotion_assassin_1.anim" }
+	
+	animation = { id = "head_emotion_toast_1"							type = "male_head_emotion_toast_1.anim" }
+	animation = { id = "head_emotion_toast_2"							type = "male_head_emotion_toast_2.anim" }
+	
+	animation = { id = "head_emotion_drink"								type = "male_head_emotion_drink_1.anim" }
+	animation = { id = "head_emotion_drink_loop"						type = "male_head_emotion_drink_1_loop.anim" }
+	
+	#===========================================================================
+	# Royal Court DLC
+	#===========================================================================
+	
+	animation = { id = "head_throneRoom_cheer2_1"						type = "male_head_throneRoom_cheer2_1.anim" }
+	animation = { id = "head_throneRoom_cheer2_2"						type = "male_head_throneRoom_cheer2_2.anim" }
+	animation = { id = "head_throneRoom_cheer2_3"						type = "male_head_throneRoom_cheer2_3.anim" }
+	
+	animation = { id = "head_throneRoom_oneHandedPassive1_1"			type = "male_head_throneRoom_oneHandedPassive1_1.anim" }
+	animation = { id = "head_throneRoom_oneHandedPassive1_2"			type = "male_head_throneRoom_oneHandedPassive1_2.anim" }
+	animation = { id = "head_throneRoom_oneHandedPassive1_3"			type = "male_head_throneRoom_oneHandedPassive1_3.anim" }
+	
+	animation = { id = "head_throneRoom_twoHandedPassive1_1"			type = "male_head_throneRoom_twoHandedPassive1_1.anim" }
+	animation = { id = "head_throneRoom_twoHandedPassive1_2"			type = "male_head_throneRoom_twoHandedPassive1_2.anim" }
+	animation = { id = "head_throneRoom_twoHandedPassive1_3"			type = "male_head_throneRoom_twoHandedPassive1_3.anim" }
+	
+	#===========================================================================
+	# Tours and Tournaments DLC
+	#===========================================================================
+	
+	# Hunting Activities -------------------------------------------------------
+	
+	animation = { id = "head_crossbow_aim_loop"							type = "male_head_crossbow_aim_loop.anim" }
+	animation = { id = "head_crossbow_aim_transition_down"				type = "male_head_crossbow_aim_transition_down.anim" }
+	animation = { id = "head_crossbow_aim_down_loop"					type = "male_head_crossbow_aim_down_loop.anim" }
+	animation = { id = "head_crossbow_aim_transition_up"				type = "male_head_crossbow_aim_transition_up.anim" }
+	
+	animation = { id = "head_hunting_horn_start"						type = "male_head_hunting_horn_start.anim" }
+	animation = { id = "head_hunting_horn_loop"							type = "male_head_hunting_horn_loop.anim" }
+	animation = { id = "head_hunting_horn_start_Fat"					type = "male_head_hunting_horn_start_Fat.anim" }
+	animation = { id = "head_hunting_horn_loop_Fat"						type = "male_head_hunting_horn_loop_Fat.anim" }
+	animation = { id = "head_hunting_horn_start_FatDwarf"				type = "male_head_hunting_horn_start_FatDwarf.anim" }
+	animation = { id = "head_hunting_horn_loop_FatDwarf"				type = "male_head_hunting_horn_loop_FatDwarf.anim" }
+	
+	animation = { id = "head_hunting_carcass_start"						type = "male_head_hunting_carcass_start.anim" }
+	animation = { id = "head_hunting_carcass_loop"						type = "male_head_hunting_carcass_loop.anim" }
+	
+	animation = { id = "head_hunting_knife_start"						type = "male_head_hunting_knife_start.anim" }
+	animation = { id = "head_hunting_knife_loop"						type = "male_head_hunting_knife_loop.anim" }
+	
+	animation = { id = "head_hunting_bow_aim"							type = "male_head_hunting_bow_aim.anim" }
+	
+	animation = { id = "head_hunting_bow_down"							type = "male_head_hunting_bow_down.anim" }
+	animation = { id = "head_hunting_bow_down_look"						type = "male_head_hunting_bow_down_look.anim" }
+	
+	animation = { id = "head_hunting_longbow"							type = "male_head_hunting_longbow.anim" }
+	animation = { id = "head_hunting_longbow_look"						type = "male_head_hunting_longbow_look.anim" }
+	
+	animation = { id = "head_hunting_falcon_start"						type = "male_head_hunting_falcon_start.anim" }
+	animation = { id = "head_hunting_falcon_loop"						type = "male_head_hunting_falcon_loop.anim" }
+	
+	# Tournament Activities ----------------------------------------------------
+	
+	animation = { id = "head_sword_coup_degrace_start"					type = "male_head_sword_coup_degrace_start.anim" }
+	animation = { id = "head_sword_coup_degrace_loop"					type = "male_head_sword_coup_degrace_loop.anim" }
+	
+	animation = { id = "head_sword_yield_start"							type = "male_head_sword_yield_start.anim" }
+	animation = { id = "head_sword_yield_loop"							type = "male_head_sword_yield_loop.anim" }
+	
+	animation = { id = "head_wrestling_victory_start"					type = "male_head_wrestling_victory_start.anim" }
+	animation = { id = "head_wrestling_victory_loop"					type = "male_head_wrestling_victory_loop.anim" }
+	
+	animation = { id = "head_wrestling_yield_start"						type = "male_head_wrestling_yield_start.anim" }
+	animation = { id = "head_wrestling_yield_loop"						type = "male_head_wrestling_yield_loop.anim" }
+	
+	animation = { id = "head_horse_idle_1"								type = "male_head_horse_idle_1.anim" }
+	
+	animation = { id = "head_jockey_lance_tilted"						type = "male_head_jockey_lance_tilted.anim" }
+	
+	animation = { id = "head_jockey_lance_couched"						type = "male_head_jockey_lance_couched.anim" }
+	animation = { id = "head_jockey_lance_couched_gallop"				type = "male_head_jockey_lance_couched_gallop.anim" }
+	
+	animation = { id = "head_jockey_idle"								type = "male_head_jockey_idle.anim" }
+	
+	animation = { id = "head_jockey_victory"							type = "male_head_jockey_victory.anim" }
+	animation = { id = "head_jockey_victory_loop"						type = "male_head_jockey_victory_loop.anim" }
+	
+	animation = { id = "head_jockey_gallop"								type = "male_head_jockey_gallop.anim" }
+	
+	animation = { id = "head_jockey_lance_loss"							type = "male_head_jockey_lance_loss.anim" }
+	
+	animation = { id = "head_jockey_loss_looping"						type = "male_head_jockey_loss_looping.anim" }
+	
+	# Wedding Activities -------------------------------------------------------
+	
+	animation = { id = "head_wedding_groom_right_idle"					type = "male_head_wedding_groom_right_idle.anim" }
+	
+	animation = { id = "head_wedding_bride_left_idle"					type = "male_head_wedding_bride_left_idle.anim" }
+	
+	animation = { id = "head_wedding_priest_idle"						type = "male_head_wedding_priest_idle.anim" }
+	
+	animation = { id = "head_wedding_happy_cry_loop1"					type = "male_head_wedding_happy_cry_loop1.anim" }
+	animation = { id = "head_wedding_happy_cry_loop2"					type = "male_head_wedding_happy_cry_loop2.anim" }
+	animation = { id = "head_wedding_happy_cry_loop3"					type = "male_head_wedding_happy_cry_loop3.anim" }
+	
+	animation = { id = "head_wedding_drunk_start"						type = "male_head_wedding_drunk_start.anim" }
+	animation = { id = "head_wedding_drunk_loop"						type = "male_head_wedding_drunk_loop.anim" }
+	animation = { id = "head_wedding_drunk_start_Fat"					type = "male_head_wedding_drunk_start_Fat.anim" }
+	animation = { id = "head_wedding_drunk_loop_Fat"					type = "male_head_wedding_drunk_loop_Fat.anim" }
+	animation = { id = "head_wedding_drunk_start_FatDwarf"				type = "male_head_wedding_drunk_start_FatDwarf.anim" }
+	animation = { id = "head_wedding_drunk_loop_FatDwarf"				type = "male_head_wedding_drunk_loop_FatDwarf.anim" }
+	
+	animation = { id = "head_wedding_groom_right_idle"					type = "male_head_wedding_groom_right_idle.anim" }
+	animation = { id = "head_wedding_groom_right_idle_Fat"				type = "male_head_wedding_groom_right_idle_Fat.anim" }
+	animation = { id = "head_wedding_groom_right_idle_FatDwarf"			type = "male_head_wedding_groom_right_idle_FatDwarf.anim" }
+	
+	animation = { id = "head_wedding_bride_left_idle"					type = "male_head_wedding_bride_left_idle.anim" }
+	animation = { id = "head_wedding_bride_left_idle_Fat"				type = "male_head_wedding_bride_left_idle_Fat.anim" }
+	animation = { id = "head_wedding_bride_left_idle_FatDwarf"			type = "male_head_wedding_bride_left_idle_FatDwarf.anim" }
+	
+	animation = { id = "head_wedding_priest_idle"						type = "male_head_wedding_priest_idle.anim" }
+	animation = { id = "head_wedding_priest_idle_Fat"					type = "male_head_wedding_priest_idle_Fat.anim" }
+	animation = { id = "head_wedding_priest_idle_FatDwarf"				type = "male_head_wedding_priest_idle_FatDwarf.anim" }
+	
+	animation = { id = "head_reception_groom_left_idle"					type = "male_head_reception_groom_left_idle.anim" }
+	animation = { id = "head_reception_groom_left_idle_Fat"				type = "male_head_reception_groom_left_idle_Fat.anim" }
+	animation = { id = "head_reception_groom_left_idle_FatDwarf"		type = "male_head_reception_groom_left_idle_FatDwarf.anim" }
+	
+	animation = { id = "head_reception_bride_right_idle"				type = "male_head_reception_bride_right_idle.anim" }
+	animation = { id = "head_reception_bride_right_idle_Fat"			type = "male_head_reception_bride_right_idle_Fat.anim" }
+	animation = { id = "head_reception_bride_right_idle_FatDwarf"		type = "male_head_reception_bride_right_idle_FatDwarf.anim" }
+	
+	animation = { id = "head_wedding_objection_start"					type = "male_head_wedding_objection_start.anim" }
+	animation = { id = "head_wedding_objection_loop"					type = "male_head_wedding_objection_loop.anim" }
+	
+	animation = { id = "head_wedding_groom_left_idle"					type = "male_head_wedding_groom_left_idle.anim" }
+	
+	animation = { id = "head_wedding_bride_right_idle"					type = "male_head_wedding_bride_right_idle.anim" }
+	
+	animation = { id = "head_throneRoom_applaud1_1"						type = "male_head_throneRoom_applaud1_1.anim" }
+	animation = { id = "head_throneRoom_applaud1_2"						type = "male_head_throneRoom_applaud1_2.anim" }
+	
+	#===========================================================================
+	# Wards and Wardens DLC
+	#===========================================================================
+	
+	animation = { id = "head_emotion_angry_go_to_room_start"			type = "male_head_emotion_angry_room_point.anim" }
+	animation = { id = "head_emotion_angry_go_to_room_loop"				type = "male_head_emotion_angry_room_point_loop.anim" }
+	
+	animation = { id = "head_emotion_teen_cry_loop1"					type = "male_head_emotion_teen_cry_loop1.anim" }
+	animation = { id = "head_emotion_teen_cry_loop2"					type = "male_head_emotion_teen_cry_loop2.anim" }
+	
+	animation = { id = "head_emotion_child_cry_loop1"					type = "male_head_emotion_child_cry_loop1.anim" }
+	animation = { id = "head_emotion_child_cry_loop2"					type = "male_head_emotion_child_cry_loop2.anim" }
+	
+	animation = { id = "head_emotion_infant_cry_loop1"					type = "male_head_emotion_infant_cry_loop1.anim" }
+	animation = { id = "head_emotion_infant_cry_loop2"					type = "male_head_emotion_infant_cry_loop2.anim" }
+	
+	animation = { id = "head_child_clutching_ball_start"				type = "male_head_child_clutching_ball_start.anim" }
+	animation = { id = "head_child_clutching_ball_loop"					type = "male_head_child_clutching_ball_loop.anim" }
+	
+	animation = { id = "head_child_clutching_doll_start"				type = "male_head_child_clutching_doll_start.anim" }
+	animation = { id = "head_child_clutching_doll_loop"					type = "male_head_child_clutching_doll_loop.anim" }
+	
+	animation = { id = "head_emotion_stressed_teaching_loop1"			type = "male_head_emotion_stressed_teaching_loop1.anim" }
+	animation = { id = "head_emotion_stressed_teaching_loop2"			type = "male_head_emotion_stressed_teaching_loop2.anim" }
+	
+	animation = { id = "head_emotion_happy_teaching_loop1"				type = "male_head_emotion_happy_teaching_loop1.anim" }
+	animation = { id = "head_emotion_happy_teaching_loop2"				type = "male_head_emotion_happy_teaching_loop2.anim" }
+	
+	animation = { id = "head_child_hobby_horse_loop"					type = "male_head_child_hobby_horse_loop.anim" }
+	
+	animation = { id = "head_manic_start"								type = "male_head_manic_start.anim" }
+	animation = { id = "head_manic_loop"								type = "male_head_manic_loop.anim" }
+	
+	animation = { id = "head_eccentric_start"							type = "male_head_eccentric_start.anim" }
+	animation = { id = "head_eccentric_loop"							type = "male_head_eccentric_loop.anim" }
+	
+	animation = { id = "head_reading_loop"								type = "male_head_reading.anim" }
+	
+	animation = { id = "head_peekaboo_start"							type = "male_head_peekaboo.anim" }
+	animation = { id = "head_peekaboo_loop"								type = "male_head_peekaboo_loop.anim" }
+	
+	####################################################################################################################
+	# ↓ MODS ↓                                                                                                         #
+	####################################################################################################################
+}
