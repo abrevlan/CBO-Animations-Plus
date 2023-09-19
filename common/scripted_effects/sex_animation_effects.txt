@@ -36,7 +36,7 @@ sex_missionary_1 = {
 
 	else = {
 		if = {
-			limit = { sex_missionary_1_corrections = yes }
+			limit = { needs_animation_corrections = { position = missionary_1 } }
 			sex_missionary_1_corrections_female = yes
 		}
 
@@ -73,7 +73,7 @@ sex_doggy_1 = {
 		limit = { is_male = yes }
 
 		if = {
-			limit = { sex_doggy_1_corrections = yes }
+			limit = { needs_animation_corrections = { position = doggy_1 } }
 			sex_doggy_1_corrections_male = yes
 		}
 
@@ -89,7 +89,7 @@ sex_doggy_1 = {
 
 	else = {
 		if = {
-			limit = { sex_doggy_1_corrections = yes }
+			limit = { needs_sex_doggy_1_corrections = yes }
 			sex_doggy_1_corrections_female = yes
 		}
 

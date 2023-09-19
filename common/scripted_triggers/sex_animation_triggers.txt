@@ -1,4 +1,4 @@
-﻿sex_missionary_1 = {
+﻿has_sex_missionary_1_flag = {
 	OR = {
 		has_character_flag = sex_missionary_1a
 		has_character_flag = sex_missionary_1b
@@ -17,7 +17,7 @@
 	}
 }
 
-sex_doggy_1 = {
+has_sex_doggy_1_flag = {
 	OR = {
 		has_character_flag = sex_doggy_1a
 		has_character_flag = sex_doggy_1b
@@ -28,7 +28,11 @@ sex_doggy_1 = {
 	}
 }
 
-sex_missionary_1_corrections = {
+needs_animation_corrections = {
+	needs_sex_$position$_corrections = yes
+}
+
+needs_sex_missionary_1_corrections = {
 	trigger_if = {
 		limit = {
 			is_female = yes
@@ -39,7 +43,7 @@ sex_missionary_1_corrections = {
 	}
 }
 
-sex_doggy_1_corrections = {
+needs_sex_doggy_1_corrections = {
 	trigger_if = {
 		limit = {
 			is_male = yes
