@@ -5,31 +5,32 @@ intro_carnal_court_sex_scene.0001 = {
 	title = cbo_animations_plus.t
 	desc = cbo_animations_plus.desc
 	theme = court
-	
+
 	court_scene = {
 		court_event_force_open = yes
-		
+
 		roles = {
 			scope:carn_sex_player = { group = sex_bed_group_1 animation = sex_cuddle }
 			scope:carn_sex_target = { group = sex_bed_group_2 animation = sex_cuddle }
 		}
 	}
-	
+
 	trigger = { is_heterosexual_sex_scene = yes }
-	
+
 	option = {
 		name = cbo_animations_plus.default
 		trigger_event = { on_action = random_carnal_court_sex_scene }
 	}
-	
+
 	option = {
 		name = cbo_animations_plus.a
 		trigger_event = { on_action = random_bedroom_generic_sex_scene }
 	}
-	
+
 	option = {
 		name = intro_carnal_court_sex_scene.0001.p
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }
 
@@ -38,31 +39,32 @@ intro_carnal_court_sex_scene.0002 = {
 	title = cbo_animations_plus.t
 	desc = cbo_animations_plus.desc
 	theme = court
-	
+
 	court_scene = {
 		court_event_force_open = yes
-		
+
 		roles = {
 			scope:carn_sex_player = { group = sex_bed_group_1 animation = sex_cuddle }
 			scope:carn_sex_target = { group = sex_bed_group_2 animation = sex_cuddle_hom }
 		}
 	}
-	
+
 	trigger = { is_homosexual_sex_scene_for_male = yes }
-	
+
 	option = {
 		name = cbo_animations.default
 		trigger_event = { on_action = random_carnal_court_sex_scene }
 	}
-	
+
 	option = {
 		name = cbo_animations.a
 		trigger_event = { on_action = random_bedroom_generic_sex_scene }
 	}
-	
+
 	option = {
 		name = intro_carnal_court_sex_scene.0001.p
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }
 
@@ -71,30 +73,31 @@ intro_carnal_court_sex_scene.0003 = {
 	title = cbo_animations_plus.t
 	desc = cbo_animations_plus.desc
 	theme = court
-	
+
 	court_scene = {
 		court_event_force_open = yes
-		
+
 		roles = {
 			scope:carn_sex_player = { group = sex_bed_group_1 animation = sex_cuddle_hom }
 			scope:carn_sex_target = { group = sex_bed_group_2 animation = sex_cuddle_hom_2 }
 		}
 	}
-	
+
 	trigger = { is_homosexual_sex_scene_for_female = yes }
-	
+
 	option = {
 		name = cbo_animations.default
 		trigger_event = { on_action = random_carnal_court_sex_scene }
 	}
-	
+
 	option = {
 		name = cbo_animations.a
 		trigger_event = { on_action = random_bedroom_generic_sex_scene }
 	}
-	
+
 	option = {
 		name = intro_carnal_court_sex_scene.0001.p
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }

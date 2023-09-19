@@ -18,9 +18,7 @@ clear_carnal_court_sex_animation_flags = {
 #-------------------------------------------------------------------------------
 
 end_carnal_court_scene = {
-	default_carn_had_sex_effect = yes
 	carnal_court_leave_court_effect = yes
-	carn_sex_scene_is_consensual = yes
 	remove_global_variable = carnal_court_sex_animation_event
 
 	close_view = {

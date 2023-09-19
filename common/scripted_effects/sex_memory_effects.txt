@@ -1,0 +1,13 @@
+﻿giving_player_memory_template = {
+	carn_set_sex_scene = { SEXSCENE = consensual }
+	carn_set_sex_scene = { SEXSCENE = vaginal }
+	carn_set_sex_scene = { SEXSCENE = cum_inside }
+	carn_set_sex_scene = { SEXSCENE = giving_player }
+}
+
+receiving_player_memory_template = {
+	carn_set_sex_scene = { SEXSCENE = consensual }
+	carn_set_sex_scene = { SEXSCENE = vaginal }
+	carn_set_sex_scene = { SEXSCENE = cum_inside }
+	carn_set_sex_scene = { SEXSCENE = receiving_player }
+}

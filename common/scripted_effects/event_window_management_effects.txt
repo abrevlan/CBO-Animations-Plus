@@ -1,21 +1,4 @@
-﻿
-#========================================================
-# Character Event Window Effects
-#========================================================
-
-list_as_sex_scene_participant = {
-	if = {
-		limit = { NOT = { is_in_list = sex_scene_participants } }
-		add_to_list = sex_scene_participants
-	}
-}
-
-2_participants_list = {
-	scope:carn_sex_player = { list_as_sex_scene_participant = yes }
-	scope:carn_sex_target = { list_as_sex_scene_participant = yes }
-}
-
-set_event_sex_animation = {
+﻿set_event_sex_animation = {
 	every_in_list = {
 		list = sex_scene_participants
 		sex_$position$ = yes
@@ -59,17 +42,4 @@ init_sex_scene = {
 end_sex_scene = {
 	remove_global_variable = sex_animation_event
 	clear_sex_animation_flags_from_participants = yes
-}
-
-default_carn_had_sex_effect = {
-	scope:carn_sex_player  = {
-		carn_had_sex_with_effect = {
-			CHARACTER_1 = scope:carn_sex_player
-			CHARACTER_2 = scope:carn_sex_target
-			C1_PREGNANCY_CHANCE = pregnancy_chance
-			C2_PREGNANCY_CHANCE = pregnancy_chance
-			STRESS_EFFECTS = scope:carn_sex_stress_effects
-			DRAMA = scope:carn_sex_drama
-		}
-	}
 }

@@ -1,7 +1,7 @@
 ﻿namespace = bedroom_generic_sex_scene
 
 #===============================================================================
-# Missionary Sex Scenes
+# 0000-0100 | Missionary Sex Scenes
 #===============================================================================
 
 #-------------------------------------------------------------------------------
@@ -49,18 +49,19 @@ bedroom_generic_sex_scene.0001 = {
 	option = {
 		name = bedroom_generic_sex_scene.endOption
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }
 
 #===============================================================================
-# Doggy Sex Scenes
+# 0101-0200 | Doggy Sex Scenes
 #===============================================================================
 
 #-------------------------------------------------------------------------------
 # Doggy 1 Variations
 #-------------------------------------------------------------------------------
 
-bedroom_generic_sex_scene.0011 = {
+bedroom_generic_sex_scene.0101 = {
 	type = court_event
 	title = sex_doggy.t
 	desc = sex_doggy.t
@@ -101,5 +102,6 @@ bedroom_generic_sex_scene.0011 = {
 	option = {
 		name = bedroom_generic_sex_scene.endOption
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }

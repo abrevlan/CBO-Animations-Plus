@@ -10,6 +10,10 @@
 - female
   - doggy 1 (2 Variations)
 
+### Integrations
+
+- update Carnalitas integration
+
 ### Localization
 
 - added simp_chinese localization (curtesy of jengus)

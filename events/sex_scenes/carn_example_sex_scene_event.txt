@@ -3,43 +3,43 @@
 carn_sex_scene.0001 = {
 	type = character_event
 	title = carn_sex_scene.0001.t
-	
+
 	desc = {
 		desc = carn_sex_scene.0001.desc_opening
 		desc = carn_sex_scene.0001.desc_ending
 	}
-	
+
 	theme = seduction
 	override_background = { reference = bedchamber }
-	
+
 	left_portrait = {
 		character = scope:carn_sex_player
 		animation = flirtation
 		scripted_animation = generic_sex_animation
 		outfit_tags = { complete_nudity }
 	}
-	
+
 	right_portrait = {
 		character = scope:carn_sex_target
 		animation = flirtation_left
 		scripted_animation = generic_sex_animation
 		outfit_tags = { complete_nudity }
 	}
-	
+
 	trigger = {
 		partners_are_valid = yes
 		carn_sex_scene_is_consensual = yes
 		carn_sex_scene_matches_requested_flags_trigger = yes
 	}
-	
+
 	immediate = {
 		init_sex_scene = yes
 		carn_sex_scene_is_consensual = yes
-		default_carn_had_sex_effect = yes
 	}
-	
+
 	option = {
 		name = carn_sex_scene.0001.a
 		end_sex_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }
