@@ -2,6 +2,14 @@
 
 ## 0.2.0
 
+### Animations
+
+- male
+  - doggy 1 (2 Variations)
+    - Note: has height-hip alignment issues
+- female
+  - doggy 1 (2 Variations)
+
 ### Localization
 
 - added simp_chinese localization (curtesy of jengus)

@@ -25,7 +25,20 @@ set_event_sex_animation = {
 
 random_sex_position = {
 	random_list = {
+		1 = { random_missionary_position = yes }
+		1 = { random_doggy_position = yes }
+	}
+}
+
+random_missionary_position = {
+	random_list = {
 		1 = { set_event_sex_animation = { position = missionary_1 } }
+	}
+}
+
+random_doggy_position = {
+	random_list = {
+		1 = { set_event_sex_animation = { position = doggy_1 } }
 	}
 }
 

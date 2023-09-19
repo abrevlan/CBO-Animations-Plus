@@ -648,6 +648,9 @@
 	# Missionary
 	animation = { id = "head_sex_missionary_1a"		type = "male_head_sex_missionary_1a.anim" }
 	animation = { id = "head_sex_missionary_1b"		type = "male_head_sex_missionary_1b.anim" }
+
+	# Doggy
+	animation = { id = "head_sex_doggy_1"			type = "male_head_sex_doggy_1.anim" }
 }
 
 entity = {
@@ -1711,4 +1714,10 @@ entity = {
 	# Missionary
 	state = { name = "sex_missionary_1a"				animation = "head_sex_missionary_1a" looping = no next_state = "sex_missionary_1a" }
 	state = { name = "sex_missionary_1b"				animation = "head_sex_missionary_1b" looping = no next_state = "sex_missionary_1b" }
+
+	# Doggy
+	state = { name = "sex_doggy_1a_1"					animation = "head_sex_doggy_1" looping = no next_state = "sex_doggy_1a_1" }
+	state = { name = "sex_doggy_1a_2"					animation = "head_sex_doggy_1" looping = no next_state = "sex_doggy_1a_2" }
+	state = { name = "sex_doggy_1b_1"					animation = "head_sex_doggy_1" looping = no next_state = "sex_doggy_1b_1" }
+	state = { name = "sex_doggy_1b_2"					animation = "head_sex_doggy_1" looping = no next_state = "sex_doggy_1b_2" }
 }

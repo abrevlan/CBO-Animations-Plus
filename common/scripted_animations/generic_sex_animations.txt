@@ -5,6 +5,14 @@
 	}
 }
 
+sex_doggy = {
+	triggered_animation = {
+		trigger = { sex_doggy_1 = yes }
+		animation = sex_doggy_1
+	}
+}
+
 generic_sex_animation = {
 	scripted_animation = sex_missionary
+	scripted_animation = sex_doggy
 }
