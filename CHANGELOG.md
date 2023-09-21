@@ -1,5 +1,11 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.2.0.2
+
+### Bug Fixes
+
+- reapply female_head fix
+
 ## 0.2.0.1
 
 ### Bug Fixes
