@@ -1,65 +1,77 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.2.0.1
+
+### Bug Fixes
+
+- removed pesky **hud.gui** issue
+
+### Changelog
+
+- modified changelog to reflect the same changelog written in LoversLab
+
 ## 0.2.0
 
-### Animations
+### Animation
 
-- male
-  - doggy 1 (2 Variations)
-    - Note: has height-hip alignment issues
-- female
-  - doggy 1 (2 Variations)
+- Doggy 1
+  - 2 male variations
+  - 2 female variations
 
-### Integrations
+### Event
 
-- update Carnalitas integration
+- **bedroom_generic_sex_scene.0101**
+  - randomly plays the different variations for Doggy 1
+
+### Integration
+
+- update Carnalitas integration (curtesy of Riija from Carnalitas Discord)
 
 ### Localization
 
-- added simp_chinese localization (curtesy of jengus)
+- added simp_chinese localization (curtesy of jengus from Carnalitas Discord)
 
 ## 0.1.1
 
-### Animations
+### Animation
 
-- fixed the `female_head` animation issue
-- updated `female_head` sex_missionary_1 animations to have reactions
+- fixed the **female_head** animation issue
+- updated **female_head** **sex_missionary_1** animations to have reactions
 
 ### User Interface
 
-- removed hud.gui modification
+- removed **hud.gui** modification
 
 ### Events
 
-- modified `carn_sex_scene.0001` that came with CBO to use `generic_sex_animations` instead
+- modified **carn_sex_scene.0001** that came with CBO to use **generic_sex_animations** (my animations) instead
 
 ### Script
 
-- made effects for use in character event window
+- made effects for use in **character event window**
 
 ### Localization
 
-- added russian localization (curtesy of ded)
+- added russian localization (curtesy of ded from Carnalitas Discord)
 - added temporary localization for the other languages
 
 ## 0.1.0
 
 ### Animations
 
-- male
-  - missionary 1 (2 Variations)
-- female
-  - missionary 1 (4 Arm and 3 Leg Position Variations)
+- Missionary 1
+  - 2 male variations
+  - 4 arm position / 3 leg position variations for female
 
 ### User Interface
 
-- [hud.gui, window_royal_court.gui]
-  - hidden unneeded gameplay ui when playing a sex scene.
+- made modifications to **hud.gui** and **window_royal_court.gui** to hide unneeded gameplay UI when playing a sex scene in carnal court
 
 ### Events
 
-- missionary 1 that randomly selects animations for both male and female
-- modified `intro_carnal_court_sex_scene` into an animation set selection scene
+- bedroom_generic_sex_scene.0001
+  - randomly plays the different variations for **Missionary 1**
+- modified **intro_carnal_court_sex_scene** into an animation set selection scene
 
 ### Script
 
