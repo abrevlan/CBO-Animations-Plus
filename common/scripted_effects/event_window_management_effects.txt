@@ -1,0 +1,45 @@
+﻿set_event_sex_animation = {
+	every_in_list = {
+		list = sex_scene_participants
+		sex_$position$ = yes
+		add_character_flag = { flag = sex_animation_event days = 30 }
+	}
+}
+
+random_sex_position = {
+	random_list = {
+		1 = { random_missionary_position = yes }
+		1 = { random_doggy_position = yes }
+	}
+}
+
+random_missionary_position = {
+	random_list = {
+		1 = { set_event_sex_animation = { position = missionary_1 } }
+	}
+}
+
+random_doggy_position = {
+	random_list = {
+		1 = { set_event_sex_animation = { position = doggy_1 } }
+	}
+}
+
+clear_sex_animation_flags_from_participants = {
+	every_in_list = {
+		list = sex_scene_participants
+		clear_sex_animation_flags = yes
+		remove_character_flag = sex_animation_event
+	}
+}
+
+init_sex_scene = {
+	set_global_variable = { name = sex_animation_event value = yes }
+	2_participants_list = yes
+	random_sex_position = yes
+}
+
+end_sex_scene = {
+	remove_global_variable = sex_animation_event
+	clear_sex_animation_flags_from_participants = yes
+}

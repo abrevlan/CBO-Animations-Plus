@@ -1,7 +1,7 @@
 ﻿namespace = bedroom_generic_sex_scene
 
 #===============================================================================
-# Missionary Sex Scenes
+# 0000-0100 | Missionary Sex Scenes
 #===============================================================================
 
 #-------------------------------------------------------------------------------
@@ -12,37 +12,96 @@ bedroom_generic_sex_scene.0001 = {
 	type = court_event
 	title = sex_missionary.t
 	desc = sex_missionary.t
-	
+
 	theme = court
-	
+
 	court_scene = {
 		court_event_force_open = yes
-		
+
 		roles = {
 			scope:carn_sex_player = { group = sex_bed_group_1 scripted_animation = sex_missionary }
 			scope:carn_sex_target = { group = sex_bed_group_2 scripted_animation = sex_missionary }
 		}
 	}
-	
+
 	trigger = { is_heterosexual_sex_scene = yes }
-	
+
 	immediate = {
-		scope:carn_sex_player = { sex_missionary_1 = yes }
-		scope:carn_sex_target = { sex_missionary_1 = yes }
+		clear_carnal_court_sex_animation_flags = yes
+		set_court_event_sex_animation = { position = missionary_1 }
 	}
-	
+
 	option = {
 		name = cbo_animations_plus.return
 		trigger_event = { on_action = random_carnal_court_intro }
 	}
-	
+
 	option = {
 		name = bedroom_generic_sex_scene.option1
 		trigger_event = { on_action = random_bedroom_generic_missionary_sex_scene }
 	}
-	
+
+	option = {
+		name = bedroom_generic_sex_scene.option2
+		trigger_event = { on_action = random_bedroom_generic_doggy_sex_scene }
+	}
+
 	option = {
 		name = bedroom_generic_sex_scene.endOption
 		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
+	}
+}
+
+#===============================================================================
+# 0101-0200 | Doggy Sex Scenes
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# Doggy 1 Variations
+#-------------------------------------------------------------------------------
+
+bedroom_generic_sex_scene.0101 = {
+	type = court_event
+	title = sex_doggy.t
+	desc = sex_doggy.t
+
+	theme = court
+
+	court_scene = {
+		court_event_force_open = yes
+
+		roles = {
+			scope:carn_sex_player = { group = sex_bed_group_1 scripted_animation = sex_doggy }
+			scope:carn_sex_target = { group = sex_bed_group_2 scripted_animation = sex_doggy }
+		}
+	}
+
+	trigger = { is_heterosexual_sex_scene = yes }
+
+	immediate = {
+		clear_carnal_court_sex_animation_flags = yes
+		set_court_event_sex_animation = { position = doggy_1 }
+	}
+
+	option = {
+		name = cbo_animations_plus.return
+		trigger_event = { on_action = random_carnal_court_intro }
+	}
+
+	option = {
+		name = bedroom_generic_sex_scene.option1
+		trigger_event = { on_action = random_bedroom_generic_missionary_sex_scene }
+	}
+
+	option = {
+		name = bedroom_generic_sex_scene.option2
+		trigger_event = { on_action = random_bedroom_generic_doggy_sex_scene }
+	}
+
+	option = {
+		name = bedroom_generic_sex_scene.endOption
+		end_carnal_court_scene = yes
+		trigger_event = { on_action = fire_carn_had_sex }
 	}
 }

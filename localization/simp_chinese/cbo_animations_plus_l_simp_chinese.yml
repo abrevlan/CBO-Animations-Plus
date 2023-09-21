@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
- cbo_animations_plus.t: "Animation Sets"
- cbo_animations_plus.desc: "Select an animation set."
- cbo_animations_plus.return: "Go back to animation set selection"
- cbo_animations_plus.default: "Default"
- cbo_animations_plus.a: "Animations+"
+ cbo_animations_plus.t: "动画设置"
+ cbo_animations_plus.desc: "选择一套动画。"
+ cbo_animations_plus.return: "回到动画选择界面"
+ cbo_animations_plus.default: "默认"
+ cbo_animations_plus.a: "动画+"

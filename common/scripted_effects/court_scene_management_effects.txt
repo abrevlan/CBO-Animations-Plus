@@ -3,16 +3,24 @@
 # Carnal Court Utility Effects
 #===============================================================================
 
+set_court_event_sex_animation = {
+	scope:carn_sex_player = { sex_$position$ = yes }
+	scope:carn_sex_target = { sex_$position$ = yes }
+}
+
+clear_carnal_court_sex_animation_flags = {
+	scope:carn_sex_player = { clear_sex_animation_flags = yes }
+	scope:carn_sex_target = { clear_sex_animation_flags = yes }
+}
+
 #-------------------------------------------------------------------------------
 # Derived Effects
 #-------------------------------------------------------------------------------
 
 end_carnal_court_scene = {
-	default_carn_had_sex_effect = yes
 	carnal_court_leave_court_effect = yes
-	carn_sex_scene_is_consensual = yes
 	remove_global_variable = carnal_court_sex_animation_event
-	
+
 	close_view = {
 		view = royal_court
 		player = scope:carn_sex_player

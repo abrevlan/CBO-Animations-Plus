@@ -1,10 +1,18 @@
 ﻿sex_missionary = {
 	triggered_animation = {
-		trigger = { sex_missionary_1 = yes }
+		trigger = { has_sex_missionary_1_flag = yes }
 		animation = sex_missionary_1
+	}
+}
+
+sex_doggy = {
+	triggered_animation = {
+		trigger = { has_sex_doggy_1_flag = yes }
+		animation = sex_doggy_1
 	}
 }
 
 generic_sex_animation = {
 	scripted_animation = sex_missionary
+	scripted_animation = sex_doggy
 }

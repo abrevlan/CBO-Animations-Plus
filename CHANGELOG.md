@@ -1,5 +1,23 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.2.0
+
+### Animations
+
+- male
+  - doggy 1 (2 Variations)
+    - Note: has height-hip alignment issues
+- female
+  - doggy 1 (2 Variations)
+
+### Integrations
+
+- update Carnalitas integration
+
+### Localization
+
+- added simp_chinese localization (curtesy of jengus)
+
 ## 0.1.1
 
 ### Animations

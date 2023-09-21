@@ -1,0 +1,11 @@
+﻿list_as_sex_scene_participant = {
+	if = {
+		limit = { NOT = { is_in_list = sex_scene_participants } }
+		add_to_list = sex_scene_participants
+	}
+}
+
+2_participants_list = {
+	scope:carn_sex_player = { list_as_sex_scene_participant = yes }
+	scope:carn_sex_target = { list_as_sex_scene_participant = yes }
+}
