@@ -116,9 +116,9 @@ sex_doggy_1 = {
 						has_character_flag = sex_doggy_1a_4
 					}
 				}
-				
-				add_character_flag = sex_doggy_1a
 			}
+			
+			add_character_flag = sex_doggy_1a
 		}
 		
 		else = {
