@@ -14,12 +14,14 @@
 	remove_character_flag = sex_missionary_1d_1
 	remove_character_flag = sex_missionary_1d_2
 	remove_character_flag = sex_missionary_1d_3
-
+	
 	# Doggy 1 Variations
 	remove_character_flag = sex_doggy_1a
 	remove_character_flag = sex_doggy_1b
 	remove_character_flag = sex_doggy_1a_1
 	remove_character_flag = sex_doggy_1a_2
+	remove_character_flag = sex_doggy_1a_3
+	remove_character_flag = sex_doggy_1a_4
 	remove_character_flag = sex_doggy_1b_1
 	remove_character_flag = sex_doggy_1b_2
 }
@@ -27,21 +29,21 @@
 sex_missionary_1 = {
 	if = {
 		limit = { is_male = yes }
-
+		
 		random_list = {
 			1 = { add_character_flag = sex_missionary_1a }
 			1 = { add_character_flag = sex_missionary_1b }
 		}
-
+		
 		giving_player_memory_template = yes
 	}
-
+	
 	else = {
 		if = {
 			limit = { needs_animation_corrections = { position = missionary_1 } }
 			sex_missionary_1_corrections_female = yes
 		}
-
+		
 		else = {
 			random_list = {
 				1 = { add_character_flag = sex_missionary_1a_1 }
@@ -58,7 +60,7 @@ sex_missionary_1 = {
 				1 = { add_character_flag = sex_missionary_1d_3 }
 			}
 		}
-
+		
 		receiving_player_memory_template = yes
 	}
 }
@@ -75,37 +77,57 @@ sex_missionary_1_corrections_female = {
 sex_doggy_1 = {
 	if = {
 		limit = { is_male = yes }
-
+		
 		if = {
 			limit = { needs_animation_corrections = { position = doggy_1 } }
 			sex_doggy_1_corrections_male = yes
 		}
-
+		
 		else = {
 			random_list = {
 				1 = { add_character_flag = sex_doggy_1a_1 }
 				1 = { add_character_flag = sex_doggy_1a_2 }
+				1 = { add_character_flag = sex_doggy_1a_3 }
+				1 = { add_character_flag = sex_doggy_1a_4 }
 				1 = { add_character_flag = sex_doggy_1b_1 }
 				1 = { add_character_flag = sex_doggy_1b_2 }
 			}
 		}
-
+		
 		giving_player_memory_template = yes
 	}
-
+	
 	else = {
 		if = {
-			limit = { needs_sex_doggy_1_corrections = yes }
+			limit = { needs_animation_corrections = { position = doggy_1 } }
 			sex_doggy_1_corrections_female = yes
 		}
-
+		
+		else_if = {
+			limit = {
+				is_female = yes
+				NOT = { this = scope:carn_sex_player }
+				
+				scope:carn_sex_player = {
+					OR = {
+						has_character_flag = sex_doggy_1a_1
+						has_character_flag = sex_doggy_1a_2
+						has_character_flag = sex_doggy_1a_3
+						has_character_flag = sex_doggy_1a_4
+					}
+				}
+				
+				add_character_flag = sex_doggy_1a
+			}
+		}
+		
 		else = {
 			random_list = {
 				1 = { add_character_flag = sex_doggy_1a }
 				1 = { add_character_flag = sex_doggy_1b }
 			}
 		}
-
+		
 		receiving_player_memory_template = yes
 	}
 }
