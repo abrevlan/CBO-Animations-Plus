@@ -23,6 +23,8 @@ has_sex_doggy_1_flag = {
 		has_character_flag = sex_doggy_1b
 		has_character_flag = sex_doggy_1a_1
 		has_character_flag = sex_doggy_1a_2
+		has_character_flag = sex_doggy_1a_3
+		has_character_flag = sex_doggy_1a_4
 		has_character_flag = sex_doggy_1b_1
 		has_character_flag = sex_doggy_1b_2
 	}
@@ -38,7 +40,7 @@ needs_sex_missionary_1_corrections = {
 			is_female = yes
 			NOT = { this = scope:carn_sex_player }
 		}
-
+		
 		scope:carn_sex_player = { has_character_flag = sex_missionary_1b }
 	}
 }
@@ -49,25 +51,25 @@ needs_sex_doggy_1_corrections = {
 			is_male = yes
 			NOT = { this = scope:carn_sex_player }
 		}
-
+		
 		scope:carn_sex_player = {
-			OR = {
-				has_character_flag = sex_doggy_1a_2
-				has_character_flag = sex_doggy_1b_2
-			}
+			has_character_flag = sex_doggy_1b
 		}
 	}
-
+	
 	trigger_else_if = {
 		limit = {
 			is_female = yes
 			NOT = { this = scope:carn_sex_player }
 		}
-
+		
 		scope:carn_sex_player = {
-			has_character_flag = sex_doggy_1b
+			OR = {
+				has_character_flag = sex_doggy_1b_1
+				has_character_flag = sex_doggy_1b_2
+			}
 		}
 	}
-
+	
 	trigger_else = { always = no }
 }

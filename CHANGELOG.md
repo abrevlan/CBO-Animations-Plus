@@ -1,14 +1,23 @@
 ﻿# CBO Animations+ Changelog
 
+## 0.2.1.0
+
+### Animation
+
+- Doggy 1 (polish)
+  - added 1 more variation for male
+  - polished female animation motions
+  - fixed variation selection code
+
 ## 0.2.0.2
 
-### Bug Fixes
+### Bug Fix
 
 - reapply female_head fix
 
 ## 0.2.0.1
 
-### Bug Fixes
+### Bug Fix
 
 - removed pesky **hud.gui** issue
 
